@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+>
+        <com.yotako.customView.YotakoConstraintLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+>
+            <android.support.constraint.Guideline
+android:id="@+id/_button_0_guidelines_topa941284a_d580_474a_8b25_574a21530d06"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="horizontal"
+app:layout_constraintGuide_percent="0.18289999999999998" />
+            <android.support.constraint.Guideline
+android:id="@+id/_button_0_guidelines_starta941284a_d580_474a_8b25_574a21530d06"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+app:layout_constraintGuide_percent="0.2693" />
+            <android.support.constraint.Guideline
+android:id="@+id/_button_0_guidelines_bottoma941284a_d580_474a_8b25_574a21530d06"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="horizontal"
+app:layout_constraintGuide_percent="0.25786000000000003" />
+            <android.support.constraint.Guideline
+android:id="@+id/_button_0_guidelines_enda941284a_d580_474a_8b25_574a21530d06"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+app:layout_constraintGuide_percent="0.83196" />
+            <com.yotako.customView.YotakoButton
+android:id="@+id/_button_0"
+android:textAllCaps="false"
+android:background="#42aed2"
+app:originalWidth="211"
+app:originalHeight="50"
+android:layout_width="211dp"
+android:layout_height="50dp"
+android:layout_weight="1"
+app:layout_constraintStart_toStartOf="@+id/_button_0_guidelines_starta941284a_d580_474a_8b25_574a21530d06"
+app:layout_constraintTop_toTopOf="@+id/_button_0_guidelines_topa941284a_d580_474a_8b25_574a21530d06"
+app:layout_constraintEnd_toEndOf="@+id/_button_0_guidelines_enda941284a_d580_474a_8b25_574a21530d06"
+app:layout_constraintBottom_toBottomOf="@+id/_button_0_guidelines_bottoma941284a_d580_474a_8b25_574a21530d06"/>
+        </com.yotako.customView.YotakoConstraintLayout>
+    </LinearLayout>
